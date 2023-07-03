@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    list-style: none;          /*tira a bolinha*/
+    align-items: center;      /*faz com q se posicione  no centro alto*/
+    display: flex;
+    gap: 1.5em;
+    position: fixed;
+    height: 2em;
+    background: linear-gradient(to right, #fff, blue);
+    width: 100%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, .8);
+    padding-left: 1em;
+}
+a:visited{
+    color: aqua;
+}
+section{
+    min-height: 100vh;
+    padding-top: 2.5em;
+    padding-left: 1.5em;
+    /*color: white*/
+}
+#ini{
+    background: url("imagem1.jpg");
+    background-size: cover;
+}
+#ser{
+    background: url("imagem2.jpg");
+    background-size: cover;
+}
+#con{
+    background: url("imagem3.jpg");
+    background-size: cover;
+}
+#cur{
+    background: url("imagem4.jpg");
+    background-size: cover;
+}
+#sob{
+    background: url("imagem5.jpg");
+    background-size: cover;
+}
